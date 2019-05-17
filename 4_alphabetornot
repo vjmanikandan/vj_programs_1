@@ -1,0 +1,5 @@
+var=input()
+if var.isalpha():
+    print("Alphabet")
+else:
+    print("Invalid")
