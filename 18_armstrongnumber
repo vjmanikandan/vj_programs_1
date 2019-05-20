@@ -1,0 +1,14 @@
+number=int(input())
+temp=number
+sum1=0
+while(number!=0):
+    rem=number%10
+    sum1=pow(rem,3)+sum1
+    number=number//10
+if(temp==sum1):
+    print("yes")
+else:
+    print("no")
+
+    
+    
