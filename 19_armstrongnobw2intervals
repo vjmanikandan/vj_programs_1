@@ -1,0 +1,14 @@
+num1=int(input())
+num2=int(input())
+for i in range(num1,num2+1):
+    sum1=0
+    temp=i
+    while(i!=0):
+        rem=i%10
+        sum1=pow(rem,3)+sum1
+        i=i//10
+    if(sum1==temp):
+        print(sum1)
+    
+    
+    
