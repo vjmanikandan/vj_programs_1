@@ -1,0 +1,6 @@
+
+N=int(input("number of terms"))
+A=int(input("number of elements"))
+D=int(input("difference"))
+t=N*(N+1)//D
+print(t)
