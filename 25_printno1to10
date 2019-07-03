@@ -1,0 +1,7 @@
+a=1
+var=0
+n=int(input())
+while var<=n:
+    print(var)
+    var+=1
+    a+=1
